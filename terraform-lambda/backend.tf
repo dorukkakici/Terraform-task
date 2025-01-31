@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket  = "doruk-terraform-state-bucket"  # S3 bucket for Terraform state
+    bucket  = "doruk-terraform-state-bucket"
     key     = "terraform.tfstate"
-    region  = "eu-west-1"  # Region where the S3 bucket is located
+    region  = "eu-west-1"
     encrypt = true
   }
 }
