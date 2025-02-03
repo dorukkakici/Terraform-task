@@ -23,7 +23,7 @@ resource "aws_lambda_function" "cron_lambda" {
   function_name = var.lambda_function_name
   role          = aws_iam_role.lambda_role.arn
   handler       = "main.lambda_handler"
-  runtime       = "python3.8"
+  runtime       = "python3.11"
   timeout       = 30
 
   s3_bucket = var.s3_bucket_lambda
