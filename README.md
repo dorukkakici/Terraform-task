@@ -18,7 +18,7 @@ This project uses Terraform to create and manage AWS resources for deploying a L
 Before you begin, make sure you have the following:
 
 - **AWS Account**: You need access to an AWS account to deploy the infrastructure.
-- **Terraform (v0.15.5 or higher)**: Follow the installation guide [here](https://www.terraform.io/downloads.html).
+- **Terraform (1.10.5 or higher)**: Follow the installation guide [here](https://www.terraform.io/downloads.html).
 - **AWS CLI**: Ensure that the AWS CLI is configured with the necessary credentials.
 
 
