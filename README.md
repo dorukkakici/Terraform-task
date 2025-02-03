@@ -31,7 +31,7 @@ Before you begin, make sure you have the following:
 First, clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/terraform-lambda.git
+git clone git@github.com:dorukkakici/Terraform-task.git
 cd terraform-lambda
 ```
 
